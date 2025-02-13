@@ -5,3 +5,9 @@ mkdir number_guessing_game
 cd number_guessing_game
 touch number_guess.sh
 git init
+git remote -v
+chmod +x number_guess.sh
+git remote -v
+cd ..
+git remote -v
+git remote set-url origin https://github.com/Yogesh0808/learn-number-guessing-game.git
